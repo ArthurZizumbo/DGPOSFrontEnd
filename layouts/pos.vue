@@ -1,18 +1,17 @@
 <template>
   <div class="h-screen flex flex-col">
     <PageRootNavbarComponent />
-    <ProductComponentTopSellRanks class="top-sells" />
-    <div class="flex flex-grow">
+    <!-- <ProductComponentTopSellRanks class="top-sells" /> -->
+    <div class="">
       <PageRootSidebarCategories
-        class="w-sidebar bg-gray-200"
         @item-selected="onItemSelected"
       />
-      <main
+      <div
         v-if="selectedItems"
-        class="flex-grow p-4 overflow-hidden products-category"
+        class=" p-4 overflow-hidden products-category"
       >
         <ProductComponentProductCards :category="selectedItems" />
-      </main>
+      </div>
     </div>
     <TicketComponentSidebarOrder class="sidebar-order" />
   </div>
@@ -29,27 +28,24 @@ const onItemSelected = (label) => {
 </script>
 
 <style scoped>
-.w-sidebar {
-  width: 20%;
-}
 
 .products-category {
-  margin-left: 20%;
+  margin-left: 14%;
+  margin-top: 6%;
   width: 60%;
 }
 
 .top-sells {
-  margin-left: 20.2%;
+  margin-left: 15.2%;
   width: 60%;
 }
 
 .sidebar-order {
-  margin-left: 40.4%;
-  width: 18%;
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 100vh; /* Altura completa de la pantalla */
+  margin-top:14%;
+  margin-left: 74%;
+  width: 26%;
+  height: 86vh; /* Altura completa de la pantalla */
   overflow-y: auto; /* Permite hacer scroll si el contenido es más largo que la pantalla */
 }
 </style>
+
