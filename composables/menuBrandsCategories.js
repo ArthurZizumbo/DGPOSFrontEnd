@@ -1,7 +1,7 @@
 export const useMenuCategoriesAndBrands = () => {
   const dataCategories = [
     {
-      title: 'Bebidas',
+      label: 'Bebidas',
       brands: [
         { label: 'Cocacola' },
         { label: 'Pepsi' },
@@ -12,7 +12,7 @@ export const useMenuCategoriesAndBrands = () => {
       ],
     },
     {
-      title: 'Comida',
+      label: 'Comida',
       brands: [
         { label: 'Enchiladas' },
         { label: 'Chilaquiles' },
@@ -21,11 +21,11 @@ export const useMenuCategoriesAndBrands = () => {
       ],
     },
     {
-      title: 'Papas',
+      label: 'Papas',
       brands: [{ label: 'Barcel' }, { label: 'Sabritas' }, { label: 'Totis' }],
     },
     {
-      title: 'Ensaladas',
+      label: 'Ensaladas',
       brands: [
         { label: 'Tradicional' },
         { label: 'Quinoa' },
@@ -33,7 +33,7 @@ export const useMenuCategoriesAndBrands = () => {
       ],
     },
     {
-      title: 'Amaranto',
+      label: 'Amaranto',
       brands: [{ label: 'Galletas' }, { label: 'Obleas' }, { label: 'Barras' }],
     },
   ];

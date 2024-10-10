@@ -22,25 +22,11 @@ export const useTopSellsProducts = () => {
       price: 60,
     },
     {
-      id: 50,
-      name: 'Takis Fuego',
-      image:
-        'https://www.basicos.mx/images/thumbs/0006474_takis-fuego-80-grs_510.png',
-      price: 20,
-    },
-    {
       id: 80,
       name: 'Chilaquiles de Pollo',
       image:
         'https://www.cardamomo.news/__export/1713380378300/sites/debate/img/2024/04/17/chilaquiles_verdes_con_pollo.png_1758632412.png',
       price: 60,
-    },
-    {
-      id: 90,
-      name: 'Chicles Trident',
-      image:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-u8XPAPd7NcXJVww4Rc9u-m4hSVWcXWx7KA&s',
-      price: 20,
     },
     {
       id: 81,
@@ -49,26 +35,7 @@ export const useTopSellsProducts = () => {
         'https://editorialtelevisa.brightspotcdn.com/wp-content/uploads/2019/08/tacos-campechanos.jpg',
       price: 85,
     },
-    {
-      id: 82,
-      name: 'Molletes',
-      image: 'https://variotopia.com/wp-content/uploads/2023/10/molletes.png',
-      price: 35,
-    },
-    {
-      id: 85,
-      name: 'Comida del día',
-      image:
-        'https://content.elmueble.com/medio/2022/04/10/recetas-de-almuerzos-saludables_7d12ce86_674x379.png',
-      price: 100,
-    },
-    {
-      id: 90,
-      name: 'Gatorade 1 lt Ponche Frutas',
-      image:
-        'https://treslagosstore.com/wp-content/uploads/2020/10/gatorade-ponche-1l.png',
-      price: 35,
-    },
+    
   ];
 
   return productsTopSells;

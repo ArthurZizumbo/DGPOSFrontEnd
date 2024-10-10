@@ -1,5 +1,5 @@
 <template>
-  <div class="border-b-[0.5px] bg-white dark:bg-black sticky top-0 z-[99]">
+  <div class="h-navbar bg-white dark:bg-black sticky top-0 z-[99]">
     <div
       class="p-[0.5rem] w-full flex lg:flex-row md:flex-row flex-col lg:justify-between md:justify-between justify-center items-center"
     >
@@ -129,3 +129,9 @@ const isDark = computed({
   },
 });
 </script>
+
+<style scoped>
+.h-navbar {
+  height: 6%;
+}
+</style>
